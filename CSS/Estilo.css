@@ -1,0 +1,58 @@
+@charset "iso-8859-1";
+/* CSS Document */
+form{
+	font-size:26px;
+	background:#FFF;
+	margin:50px auto;
+	border-radius:5px;
+	padding:25px 15px 5px 15px;
+	box-shadow:0px 0px 5px #000000;
+	font-family: 'DIN';
+	min-height:200px;
+	min-width:350px;
+	max-width:500px;
+	max-height:250px;
+}
+#Cuerpo{
+	display:inline-block;
+	padding:0px 0px 0px 0px;
+}
+#Encabez{
+	display:inline-block;
+	text-align:center;
+	margin:0px auto;
+}
+.Codigo{
+	width:250px; 
+	height:50px;
+	font-size:25px;
+	color:#006699;
+	padding:5px 5px 5px 5px;
+	margin:20px auto;
+}
+label{
+	color:#C60;
+}
+#Mensaje{
+	font-family: 'DIN';
+	size:20px;
+	color:#006699;
+}
+#Boton{
+	padding:10px 10px 10px 10px;
+}
+.Button{
+	color:#FFF;
+	border:1px;
+	width:110px;
+	height:40px;
+	size:24px;
+	background:#0084B4;			/* Color Cian */
+}		
+.Button:hover{
+	box-shadow:0px 1px 3px rgba(255,255,255,0.5), inset 0px 0px 2px rgba(0,0,0,1);
+}
+
+body{
+	background-image: url("image/COD-1.png");
+}
